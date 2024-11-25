@@ -4,19 +4,25 @@
         <title>Calculadora Simples</title>
     </head>
     <body>
+        <style>
+            body{
+                background-color: #6d6178;
+            }
+        </style>
         <h1>Calculadora Simples</h1>
         <form method="GET" action="">
             <label for="num1">Número1:</label><br>
-            <input type="text" name="n1"><br>
+            <input type="text" style="background-color: #4a9db4;" name="n1"><br>
             <label for="num2">Número2:</label><br>
-            <input type="text" name="n2"><br>
-            <input type="submit" value="Calcular">
+            <input type="text" name="n2" style="background-color: #4a9db4;"><br>
+            <input type="submit" style="background-color: #3321;" value="Calcular">
             <fieldset style="margin-right: 1000px;">
                 <legend>Operações</legend>
                 <input type="radio" name="op" value="soma" checked>Soma<br>
                 <input type="radio" name="op" value="subtração">Subtração<br>
                 <input type="radio" name="op" value="multiplicação">Multiplicação<br>
                 <input type="radio" name="op" value="divisão">Divisão<br>
+                
             </fieldset>
         </form>
         
@@ -61,6 +67,7 @@
                 }
             }
         ?>
+      
     </body>
 </html>
 
